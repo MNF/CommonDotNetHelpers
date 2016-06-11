@@ -9,16 +9,13 @@
 
         //See also DataHelper.DateEndOfDay etc
         /// <summary> 
-        /// Summary description for DateTimeHelper.
+        /// TODO: add more functionality from http://stackoverflow.com/questions/4781611/how-to-know-if-a-datetime-is-between-a-daterange-in-c-sharp
         /// </summary>
         public struct DateTimeRange
         {
             public DateTime DateTimeFrom;
             public DateTime DateTimeTo;
-			/// <summary>
-			/// parameterless constructor for JavaScriptSerializer is required
-			/// </summary>
-		
+	
             /// <summary>
             /// Pass From DateTime values unchanged
             /// </summary>
